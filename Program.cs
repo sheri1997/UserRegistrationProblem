@@ -6,10 +6,10 @@ namespace UserRegistrationProblem
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please Enter First Name Starting with Capital Letter and 3 Characters Long");
-            string FirstName = Console.ReadLine();//user will input the First Name.
+            Console.WriteLine("Please Enter Last Name Starting with Capital Letter and 3 Characters Long");
+            string LastName = Console.ReadLine();//user will input the Last Name.
             RegexMatch regexMatch = new RegexMatch();//object of the Class
-            Console.WriteLine(regexMatch.firstRegex(FirstName));//will print true if the pattern matches.
+            Console.WriteLine(regexMatch.lastRegex(LastName));//will print true if the pattern matches.
         }
     }
 }
