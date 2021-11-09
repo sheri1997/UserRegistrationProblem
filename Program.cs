@@ -7,9 +7,9 @@ namespace UserRegistrationProblem
         static void Main(string[] args)
         {
             Console.WriteLine("Please Enter Last Name Starting with Capital Letter and 3 Characters Long");
-            string LastName = Console.ReadLine();//user will input the Last Name.
+            string EMailID = Console.ReadLine();//user will input the Email ID.
             RegexMatch regexMatch = new RegexMatch();//object of the Class
-            Console.WriteLine(regexMatch.lastRegex(LastName));//will print true if the pattern matches.
+            Console.WriteLine(regexMatch.emailIDRegex(EMailID));//will print true if the pattern matches.
         }
     }
 }
