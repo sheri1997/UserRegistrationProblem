@@ -9,10 +9,15 @@ namespace UserRegistrationProblem
 {
     class RegexMatch
     {
-        public static string firstName = "^[A-Z]{1}[A-Za-z]{2,}$";//defined reguler Expression.
-        public bool firstRegex(string fname)//will return true or false.
+        //public static string firstName = "^[A-Z]{1}[A-Za-z]{2,}$";//defined reguler Expression.
+        public static string lastName = "^[A-Z]{1}[A-Za-z]{2,}$";//defined reguler Expression.
+        //public bool firstRegex(string fname)//will return true or false.
+        //{
+            //return Regex.IsMatch(fname, firstName);//predefined Regex class will Validate the pattern.
+        //}
+        public bool lastRegex(string lname)//will return true or false.
         {
-            return Regex.IsMatch(fname, firstName);//predefined Regex class will Validate the pattern.
+            return Regex.IsMatch(lname, lastName);//predefined Regex class will Validate the pattern.
         }
     }
 }
