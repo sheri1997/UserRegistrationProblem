@@ -13,7 +13,7 @@ namespace UserRegistrationProblem
         //public static string lastName = "^[A-Z]{1}[A-Za-z]{2,}$";//defined reguler Expression.
         //public static string emailId = @"^([a-z]+)(\.[a-z0-9_\+\-]+?@{[a-z]+}\.{[a-z]{2-4}}{\.[a-z]{2}}?&";//defined reguler Expression.
         //public static string mobileNumber = "^+[1-9]{2}[: :][0-9]{10}$";//defined reguler Expression.
-        public static string password = "^{,8}";
+        public static string password = "^[A-Z]{,8}";
         //public bool firstRegex(string fname)//will return true or false.
         //{
         //return Regex.IsMatch(fname, firstName);//predefined Regex class will Validate the pattern.
